@@ -58,7 +58,6 @@ async fn main() {
     for p in rx {
         out.push(p);
     }
-    println!("{:?}", out);
     out.sort();
     out.iter().for_each(|p| println!("{} is open", p))
 }
